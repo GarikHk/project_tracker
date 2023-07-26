@@ -10,6 +10,18 @@ body {
   margin: 0;
 }
 
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+}
+
+#app > * {
+  width: 60%;
+}
+
 label,
 input,
 textarea {
